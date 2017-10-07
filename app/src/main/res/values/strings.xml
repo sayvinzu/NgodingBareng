@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Ngoding Bareng</string>
+    <string name="title_activity_home">Home</string>
+    <string name="title_home">Home</string>
+    <string name="title_scadule">Scadule</string>
+    <string name="title_add">Add Activity</string>
+    <string name="title_filter">Filter</string>
+    <string name="title_user">Account</string>
 </resources>
