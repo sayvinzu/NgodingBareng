@@ -17,17 +17,21 @@
 
         android:src="@drawable/icon_h"/>
 
+
     <EditText
         android:background="@drawable/rounded"
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="38dp"
         android:padding="10dp"
         android:layout_marginLeft="70dp"
         android:layout_marginRight="70dp" />
+
+
+
     <EditText
         android:background="@drawable/rounded"
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="38dp"
         android:padding="10dp"
         android:layout_marginLeft="70dp"
         android:layout_marginRight="70dp"
@@ -35,13 +39,13 @@
     <Button
         android:background="@drawable/btn_rounded"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="38dp"
         android:padding="10dp"
         android:layout_marginLeft="70dp"
         android:layout_marginRight="70dp"
         android:layout_marginTop="10dp"
         android:text="LOGIN"
-        android:textSize="23sp"
+        android:textSize="19sp"
         android:textColor="#ffffff"/>
 
     <LinearLayout
