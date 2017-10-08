@@ -9,31 +9,32 @@
 
     <android.support.design.widget.TabLayout
         android:background="#006064"
+        android:layout_alignParentBottom="true"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
         <android.support.design.widget.TabItem
-            android:text="Home"
+            android:icon="@drawable/icon_home"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
         <android.support.design.widget.TabItem
-            android:text="Filter"
+            android:icon="@drawable/icon_filter"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
         <android.support.design.widget.TabItem
-            android:text="Add"
+            android:icon="@drawable/icon_add"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
         <android.support.design.widget.TabItem
-            android:text="Scedule"
+            android:icon="@drawable/icon_scadule"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
         <android.support.design.widget.TabItem
-            android:text="Akun"
+            android:icon="@drawable/user_login"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
     </android.support.design.widget.TabLayout>

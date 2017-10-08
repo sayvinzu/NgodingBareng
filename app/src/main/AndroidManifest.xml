@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".SplashScreen"
+            android:name=".Home"
             android:noHistory="true"
             android:theme="@style/Splashscreen">
             <intent-filter>
@@ -19,16 +19,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".MainActivity"/>
+        <activity android:name=".MainActivity" />
         <activity
             android:name=".Login"
             android:theme="@style/Splashscreen" />
-
         <activity
             android:name=".Registrasi"
-            android:theme="@style/Splashscreen"/>
+            android:theme="@style/Splashscreen" />
+        <activity android:name=".SplashScreen">
 
+        </activity>
     </application>
 
 </manifest>
