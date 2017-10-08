@@ -1,4 +1,10 @@
 <resources>
     <string name="app_name">Ngoding Bareng</string>
     <string name="title_activity_home">Home</string>
+
+    <string-array name="arraygender">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
 </resources>
