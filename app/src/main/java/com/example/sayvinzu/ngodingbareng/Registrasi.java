@@ -6,16 +6,16 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
 
-public class Login extends AppCompatActivity {
+public class Registrasi extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login);
+        setContentView(R.layout.activity_registrasi);
     }
 
-    public void Registrasi (View view){
-        Toast.makeText(this, "good", Toast.LENGTH_SHORT).show();
-        startActivity(new Intent(Login.this, Registrasi.class ));
+    public void Login (View view){
+        Toast.makeText(this, "Login dulu kk", Toast.LENGTH_SHORT).show();
+        startActivity(new Intent(Registrasi.this, Login.class ));
     }
 }
